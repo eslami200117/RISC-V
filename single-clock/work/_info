@@ -1,0 +1,584 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Desktop/modelSimProcessor
+vadder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1685712657
+!i10b 1
+!s100 bb]nb[J8WGTAzjBDXR?7;2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IjMNo2_g<3I=1CUU4Ql31A3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/Desktop/risc-v/Computer-Architecture-main
+w1684703249
+8D:/Desktop/risc-v/Computer-Architecture-main/adder.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/adder.sv
+!i122 1842
+Z5 L0 1 7
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1685712657.000000
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/adder.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+valu
+R0
+R1
+!i10b 1
+!s100 IF6;lkS61WDR_aSbBbQjP3
+R2
+I``_<]a>CCTk4O3HLzz`@m0
+R3
+S1
+R4
+w1685689029
+8D:/Desktop/risc-v/Computer-Architecture-main/alu.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/alu.sv
+!i122 1839
+L0 1 42
+R6
+r1
+!s85 0
+31
+Z10 !s108 1685712656.000000
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/alu.sv|
+!i113 1
+R8
+R9
+valudec
+R0
+R1
+!i10b 1
+!s100 Xc5D^d?@`jMk0_56Ubjo^2
+R2
+I7W=]deL2[S1P_GcG[h1^<3
+R3
+S1
+R4
+w1685688260
+8D:/Desktop/risc-v/Computer-Architecture-main/aludec.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/aludec.sv
+!i122 1843
+L0 1 26
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/aludec.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/aludec.sv|
+!i113 1
+R8
+R9
+vbranchdec
+R0
+Z11 !s110 1685712658
+!i10b 1
+!s100 9@H<z[V1Y0Hi_YnI82d>c3
+R2
+I;02<MDJ]ni>i>^:QFC]mN0
+R3
+S1
+R4
+w1685711614
+8D:/Desktop/risc-v/Computer-Architecture-main/branchdec.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/branchdec.sv
+!i122 1851
+L0 1 22
+R6
+r1
+!s85 0
+31
+Z12 !s108 1685712658.000000
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/branchdec.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/branchdec.sv|
+!i113 1
+R8
+R9
+vcontroller
+R0
+Z13 !s110 1685712656
+!i10b 1
+!s100 @=UOEXTm;HFTCNFVgQ>`<2
+R2
+I00[^TazBZ[S_2ThVRQO4D3
+R3
+S1
+R4
+w1685711571
+8D:/Desktop/risc-v/Computer-Architecture-main/controller.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/controller.sv
+!i122 1834
+Z14 L0 1 48
+R6
+r1
+!s85 0
+31
+R10
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/controller.sv|
+!i113 1
+R8
+R9
+vdatapath
+R0
+R13
+!i10b 1
+!s100 T12CjgHO@USCYPmk]7IBN0
+R2
+I8?nDN_=d`zg3lEO_UgQ0H1
+R3
+S1
+R4
+w1685712504
+8D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/datapath.sv
+!i122 1836
+L0 1 71
+R6
+r1
+!s85 0
+31
+R10
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv|
+!i113 1
+R8
+R9
+vdmem
+R0
+R1
+!i10b 1
+!s100 K@jeD;4lPFak1iQ22W<@j3
+R2
+I>nbU9fBeCfD?0l9Dk[j]j3
+R3
+S1
+R4
+w1685702133
+8D:/Desktop/risc-v/Computer-Architecture-main/dmem.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/dmem.sv
+!i122 1840
+L0 1 19
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/dmem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/dmem.sv|
+!i113 1
+R8
+R9
+vdmem_tb
+R0
+R11
+!i10b 1
+!s100 jl86UOFjR=J5=lcFz[I2?0
+R2
+IdNW?TnAjYI2DijnTTPfCY2
+R3
+S1
+R4
+w1684946848
+8D:/Desktop/risc-v/Computer-Architecture-main/dmem_tb.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/dmem_tb.sv
+!i122 1848
+L0 1 53
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/dmem_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/dmem_tb.sv|
+!i113 1
+R8
+R9
+vextend
+R0
+R13
+!i10b 1
+!s100 f:N:OQDM3`4h0nVKD>fhS1
+R2
+Ic]@bd_amh[PczL:0F2PdD3
+R3
+S1
+R4
+w1685685813
+8D:/Desktop/risc-v/Computer-Architecture-main/extend.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/extend.sv
+!i122 1838
+L0 1 20
+R6
+r1
+!s85 0
+31
+R10
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/extend.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/extend.sv|
+!i113 1
+R8
+R9
+vflopenr
+R0
+R1
+!i10b 1
+!s100 oTe:MHDM]6bBJB^T[0Dfc0
+R2
+I?O?:O6fQan;=h095g@J383
+R3
+S1
+R4
+w1684914219
+8D:/Desktop/risc-v/Computer-Architecture-main/flopenr.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/flopenr.sv
+!i122 1844
+Z15 L0 1 11
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/flopenr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/flopenr.sv|
+!i113 1
+R8
+R9
+vflopr
+R0
+R1
+!i10b 1
+!s100 RhUgm;A:A=7UIW4dcRU9;0
+R2
+IjNaKg1Hd0FCaEQ8VYDaf60
+R3
+S1
+R4
+w1684914230
+8D:/Desktop/risc-v/Computer-Architecture-main/flopr.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/flopr.sv
+!i122 1845
+R15
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/flopr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/flopr.sv|
+!i113 1
+R8
+R9
+vimem
+R0
+R1
+!i10b 1
+!s100 0HOlYm5@kFjNT=<4QB?3b0
+R2
+I3L]QbGmm>lP]hMJ<7HRQ[0
+R3
+S1
+R4
+w1684963190
+8D:/Desktop/risc-v/Computer-Architecture-main/imem.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/imem.sv
+!i122 1841
+R15
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/imem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/imem.sv|
+!i113 1
+R8
+R9
+vimem_tb
+R0
+R11
+!i10b 1
+!s100 =P2Y=KfX@6B]m<A>Mg_N31
+R2
+Ilco@l0;=MFBZ:^IWSY6Aa0
+R3
+S1
+R4
+w1684934229
+8D:/Desktop/risc-v/Computer-Architecture-main/imem_tb.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/imem_tb.sv
+!i122 1847
+Z16 L0 1 13
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/imem_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/imem_tb.sv|
+!i113 1
+R8
+R9
+vmaindec
+R0
+R11
+!i10b 1
+!s100 4Y^h`dOhNXXemV3>JBMdS1
+R2
+ImZZ:gPb6N]YN<XZkBEHQ`0
+R3
+S1
+R4
+w1685711298
+8D:/Desktop/risc-v/Computer-Architecture-main/maindec.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/maindec.sv
+!i122 1846
+Z17 L0 1 31
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/maindec.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/maindec.sv|
+!i113 1
+R8
+R9
+vmux2
+R0
+!s110 1685708832
+!i10b 1
+!s100 bkj=RTUoUUWTiMSWk[10b0
+R2
+I6EmOKXM6<g]Sa;SD=>Leh0
+R3
+S1
+R4
+w1684870126
+8D:/Desktop/risc-v/Computer-Architecture-main/mux2.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/mux2.sv
+!i122 1673
+R5
+R6
+r1
+!s85 0
+31
+!s108 1685708832.000000
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/mux2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/mux2.sv|
+!i113 1
+R8
+R9
+vmux3
+R0
+!s110 1685712659
+!i10b 1
+!s100 ^=IZUibQYViGWSRJ05dIW3
+R2
+IV49F[Ej7fEldYh:oB0?8`0
+R3
+S1
+R4
+w1685712214
+8D:/Desktop/risc-v/Computer-Architecture-main/mux3.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/mux3.sv
+!i122 1852
+R15
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/mux3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/mux3.sv|
+!i113 1
+R8
+R9
+vmux4
+R0
+R11
+!i10b 1
+!s100 W@YhBWaaZiSFhDj6<Jnj23
+R2
+IN`C;WHocGC=n?^aI>BlYJ2
+R3
+S1
+R4
+w1685708663
+8D:/Desktop/risc-v/Computer-Architecture-main/mux4.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/mux4.sv
+!i122 1850
+R5
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/mux4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/mux4.sv|
+!i113 1
+R8
+R9
+vreadmemh_demo
+!s110 1684933762
+!i10b 1
+!s100 g3P=Nnid2BgBkjBMDEnfi2
+R2
+IShdFN[iiDBR4@f5d3NYd51
+R3
+R4
+w1684933499
+8D:/Desktop/risc-v/Computer-Architecture-main/imem/imem.v
+FD:/Desktop/risc-v/Computer-Architecture-main/imem/imem.v
+!i122 553
+L0 59 13
+R6
+r1
+!s85 0
+31
+!s108 1684933762.000000
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/imem/imem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/imem/imem.v|
+!i113 1
+o-work work
+R9
+vregfile
+R0
+R13
+!i10b 1
+!s100 ^m<]PD]4QhF@dC<XW<FWY0
+R2
+I>]C0Mb22LlQ[8_VN_dGXJ2
+R3
+S1
+R4
+w1684945546
+8D:/Desktop/risc-v/Computer-Architecture-main/regfile.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/regfile.sv
+!i122 1837
+R17
+R6
+r1
+!s85 0
+31
+R10
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/regfile.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/regfile.sv|
+!i113 1
+R8
+R9
+vriscvsingle
+R0
+R13
+!i10b 1
+!s100 4M1o8DH6?McW==NPhbLh>1
+R2
+IATiz5NB715[Ga@^fOi]8:0
+R3
+S1
+R4
+w1685712556
+8D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv
+!i122 1835
+R14
+R6
+r1
+!s85 0
+31
+R10
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv|
+!i113 1
+R8
+R9
+vriscvsingle_tb
+R0
+R11
+!i10b 1
+!s100 RKnL[n3z8VCeLzYVj4Bl>3
+R2
+IHm`8]:4eJ6dF5E^^QZ=m>2
+R3
+S1
+R4
+w1684948101
+8D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle_tb.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/riscvsingle_tb.sv
+!i122 1849
+L0 1 50
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle_tb.sv|
+!i113 1
+R8
+R9
+vtestbench
+R0
+!s110 1685712655
+!i10b 1
+!s100 PW0UH_8`VT134Hlo05M[k0
+R2
+IR9PUUm]FWI2igTiV3IbM[3
+R3
+S1
+R4
+w1684966151
+8D:/Desktop/risc-v/Computer-Architecture-main/testbench.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/testbench.sv
+!i122 1832
+L0 2 35
+R6
+r1
+!s85 0
+31
+Z18 !s108 1685712655.000000
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/testbench.sv|
+!i113 1
+R8
+R9
+vtop
+R0
+R13
+!i10b 1
+!s100 ]lT10^cnbQK2WbKfIJXic3
+R2
+IaaDEN0Z8jOOf8d6UI?X7b1
+R3
+S1
+R4
+w1684966211
+8D:/Desktop/risc-v/Computer-Architecture-main/top.sv
+FD:/Desktop/risc-v/Computer-Architecture-main/top.sv
+!i122 1833
+R16
+R6
+r1
+!s85 0
+31
+R18
+!s107 D:/Desktop/risc-v/Computer-Architecture-main/top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Desktop/risc-v/Computer-Architecture-main/top.sv|
+!i113 1
+R8
+R9

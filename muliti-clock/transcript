@@ -1,0 +1,120 @@
+# Compile of alu.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of dmem.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of reg1.sv was successful.
+# Compile of reg2.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of branchdec.sv was successful.
+# Compile of mainFSM.sv was successful.
+# Compile of instrdec.sv was successful.
+# Compile of mux4.sv was successful.
+# 18 compiles, 1 failed with 1 error.
+# Compile of alu.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of reg1.sv was successful.
+# Compile of reg2.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of branchdec.sv was successful.
+# Compile of mainFSM.sv was successful.
+# Compile of instrdec.sv was successful.
+# Compile of mux4.sv was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 19:16:49 on Jun 10,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.mainFSM
+# Loading work.branchdec
+# Loading work.aludec
+# Loading work.instrdec
+# Loading work.datapath
+# Loading work.reg1
+# Loading work.reg2
+# Loading work.mux2
+# Loading work.mux3
+# Loading work.mux4
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.dmem
+add wave -position insertpoint sim:/testbench/dut/dmem_inst/*
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint sim:/testbench/dut/rvsingle/dp/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+add wave -position insertpoint sim:/testbench/dut/rvsingle/c/MFSM/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+add wave -position insertpoint sim:/testbench/dut/rvsingle/dp/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+add wave -position insertpoint sim:/testbench/dut/rvsingle/dp/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 20:37:16 on Jun 10,2023, Elapsed time: 1:20:27
+# Errors: 0, Warnings: 1
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 20:37:25 on Jun 10,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.mainFSM
+# Loading work.branchdec
+# Loading work.aludec
+# Loading work.instrdec
+# Loading work.datapath
+# Loading work.reg1
+# Loading work.reg2
+# Loading work.mux2
+# Loading work.mux3
+# Loading work.mux4
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.dmem
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/testbench/dut/rvsingle/dp/*
+run -all
+add wave -position insertpoint sim:/testbench/dut/rvsingle/dp/*
+run -all
+# End time: 20:43:20 on Jun 10,2023, Elapsed time: 0:05:55
+# Errors: 0, Warnings: 1

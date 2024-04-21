@@ -1,0 +1,120 @@
+D:/Desktop/Computer-Architecture-main/regfile.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/regfile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} D:/Desktop/Computer-Architecture-main/aludec.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/aludec.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module aludec
+
+Top level modules:
+	aludec
+
+} {} {}} D:/Desktop/Computer-Architecture-main/flopenr.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/flopenr.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flopenr
+
+Top level modules:
+	flopenr
+
+} {} {}} D:/Desktop/Computer-Architecture-main/datapath.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} D:/Desktop/Computer-Architecture-main/testbench.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} D:/Desktop/Computer-Architecture-main/adder.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} D:/Desktop/Computer-Architecture-main/imem.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/imem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module imem
+
+Top level modules:
+	imem
+
+} {} {}} D:/Desktop/Computer-Architecture-main/top.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} D:/Desktop/Computer-Architecture-main/dmem.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/dmem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dmem
+
+Top level modules:
+	dmem
+
+} {} {}} D:/Desktop/Computer-Architecture-main/extend.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/extend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module extend
+
+Top level modules:
+	extend
+
+} {} {}} D:/Desktop/Computer-Architecture-main/riscvsingle.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/riscvsingle.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module riscvsingle
+
+Top level modules:
+	riscvsingle
+
+} {} {}} D:/Desktop/Computer-Architecture-main/maindec.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/maindec.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module maindec
+
+Top level modules:
+	maindec
+
+} {} {}} D:/Desktop/Computer-Architecture-main/alu.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/Desktop/Computer-Architecture-main/flopr.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/flopr.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flopr
+
+Top level modules:
+	flopr
+
+} {} {}} D:/Desktop/Computer-Architecture-main/controller.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/Desktop/Computer-Architecture-main/mux2.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/mux2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} D:/Desktop/Computer-Architecture-main/mux3.v {1 {vlog -work work -stats=none D:/Desktop/Computer-Architecture-main/mux3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+
+} {} {}}

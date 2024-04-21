@@ -1,0 +1,1327 @@
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 16:26:56 on Jun 01,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+add wave -position insertpoint sim:/testbench/*
+run -all
+# ** Warning: (vsim-PLI-3406) Too many digits (12) in data on line 4 of file "test.txt". (Max is 8.)    : D:/Desktop/risc-v/Computer-Architecture-main/imem.sv(8)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/imem_inst
+# Break key hit
+add wave -position insertpoint sim:/testbench/dut/rvsingle/c/*
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint sim:/testbench/dut/rvsingle/c/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3406) Too many digits (12) in data on line 4 of file "test.txt". (Max is 8.)    : D:/Desktop/risc-v/Computer-Architecture-main/imem.sv(8)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/imem_inst
+# Break key hit
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint sim:/testbench/dut/imem_inst/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Break key hit
+# Break key hit
+add wave -position insertpoint sim:/testbench/dut/rvsingle/c/md/*
+run -all
+restart -f
+add wave -position insertpoint module
+# ** UI-Msg: (vish-4014) No objects found matching 'module'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint sim:/testbench/dut/rvsingle/c/md/*
+# Break key hit
+quit -sim
+# End time: 16:43:57 on Jun 01,2023, Elapsed time: 0:17:01
+# Errors: 0, Warnings: 1
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 16:44:11 on Jun 01,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# End time: 16:48:12 on Jun 01,2023, Elapsed time: 0:04:01
+# Errors: 0, Warnings: 3
+# vsim -gui work.testbench 
+# Start time: 16:48:12 on Jun 01,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+add wave -position insertpoint sim:/testbench/*
+run -all
+quit -sim
+# End time: 17:02:55 on Jun 01,2023, Elapsed time: 0:14:43
+# Errors: 0, Warnings: 1
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# 20 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Load canceled
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# 20 compiles, 0 failed with no errors.
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 09:12:12 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+add wave -position insertpoint sim:/testbench/dut/*
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Break key hit
+quit -sim
+# End time: 15:06:17 on Jun 02,2023, Elapsed time: 5:54:05
+# Errors: 0, Warnings: 1
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv failed with 1 errors.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# 21 compiles, 1 failed with 1 error.
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 15:07:54 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+quit -sim
+# End time: 15:08:35 on Jun 02,2023, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 6
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 15:10:55 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/imem_inst/*
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# End time: 15:20:02 on Jun 02,2023, Elapsed time: 0:09:07
+# Errors: 0, Warnings: 4
+# vsim -gui work.testbench 
+# Start time: 15:20:02 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/*
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/dmem_inst/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+quit -sim
+# End time: 15:31:54 on Jun 02,2023, Elapsed time: 0:11:52
+# Errors: 0, Warnings: 3
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 15:32:03 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/*
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/imem_inst/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/imem_inst/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+quit -sim
+# End time: 15:48:42 on Jun 02,2023, Elapsed time: 0:16:39
+# Errors: 0, Warnings: 3
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 15:48:54 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/*
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/dmem_inst/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/imem_inst/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+quit -sim
+# End time: 15:59:41 on Jun 02,2023, Elapsed time: 0:10:47
+# Errors: 0, Warnings: 3
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 16:00:12 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/*
+run -all
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# End time: 16:01:43 on Jun 02,2023, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 5
+# vsim -gui work.testbench 
+# Start time: 16:01:43 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/*
+run -all
+quit -sim
+# End time: 16:02:46 on Jun 02,2023, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 3
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 16:02:52 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/*
+run -all
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# End time: 16:04:57 on Jun 02,2023, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 4
+# vsim -gui work.testbench 
+# Start time: 16:04:57 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/*
+run -all
+vsim -gui work.testbench
+# End time: 16:06:39 on Jun 02,2023, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 3
+# vsim -gui work.testbench 
+# Start time: 16:06:39 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/*
+run -all
+add wave -position insertpoint sim:/testbench/dut/imem_inst/*
+run -all
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/imem_inst/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/dmem_inst/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/rvsingle/dp/alu/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/rvsingle/dp/rf/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint sim:/testbench/dut/rvsingle/dp/resultmux/*
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/dut/rvsingle/dp/resultmux/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# End time: 16:55:44 on Jun 02,2023, Elapsed time: 0:49:05
+# Errors: 0, Warnings: 4
+# vsim -gui work.testbench 
+# Start time: 16:55:44 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/*
+run -all
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# End time: 16:57:23 on Jun 02,2023, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 4
+# vsim -gui work.testbench 
+# Start time: 16:57:23 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+add wave -position insertpoint sim:/testbench/*
+run -all
+quit -sim
+# End time: 17:47:05 on Jun 02,2023, Elapsed time: 0:49:42
+# Errors: 0, Warnings: 3
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# 20 compiles, 1 failed with no errors.
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# Compile of mux3.sv was successful.
+# 21 compiles, 1 failed with no errors.
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# Compile of mux3.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 17:48:02 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux3
+# Loading work.regfile
+# Loading work.extend
+# Loading work.mux2
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'PCSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'sel'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/mux3.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/pcmux File: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv Line: 24
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# Compile of mux3.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# End time: 17:50:38 on Jun 02,2023, Elapsed time: 0:02:36
+# Errors: 0, Warnings: 12
+# vsim -gui work.testbench 
+# Start time: 17:50:38 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux3
+# Loading work.regfile
+# Loading work.extend
+# Loading work.mux2
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'sel'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/mux3.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/pcmux File: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv Line: 24
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# Compile of mux3.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# End time: 17:55:30 on Jun 02,2023, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 5
+# vsim -gui work.testbench 
+# Start time: 17:55:30 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux3
+# Loading work.regfile
+# Loading work.extend
+# Loading work.mux2
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/controller.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/c File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ImmSrc'. The port definition is at: D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv(6).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp File: D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv Line: 30
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# Compile of mux3.sv was successful.
+# 21 compiles, 0 failed with no errors.
+quit -sim
+# End time: 17:59:30 on Jun 02,2023, Elapsed time: 0:04:00
+# Errors: 0, Warnings: 4
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# Compile of mux3.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 17:59:45 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux3
+# Loading work.regfile
+# Loading work.extend
+# Loading work.mux2
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+add wave -position insertpoint sim:/testbench/*
+run -all
+quit -sim
+# End time: 18:00:55 on Jun 02,2023, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 2
+# Compile of testbench.sv was successful.
+# Compile of top.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of riscvsingle.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of extend.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of flopenr.sv was successful.
+# Compile of flopr.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of imem_tb.sv was successful.
+# Compile of dmem_tb.sv was successful.
+# Compile of riscvsingle_tb.sv was successful.
+# Compile of mux4.sv was successful.
+# Compile of branchdec.sv was successful.
+# Compile of mux3.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 18:01:08 on Jun 02,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.imem
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.branchdec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux3
+# Loading work.regfile
+# Loading work.extend
+# Loading work.mux2
+# Loading work.alu
+# Loading work.mux4
+# Loading work.dmem
+add wave -position insertpoint sim:/testbench/*
+run -all
+quit -sim
+# End time: 18:01:41 on Jun 02,2023, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 2

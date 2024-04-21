@@ -1,0 +1,148 @@
+D:/Desktop/risc-v/Computer-Architecture-main/imem.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/imem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module imem
+
+Top level modules:
+	imem
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/branchdec.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/branchdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module branchdec
+
+Top level modules:
+	branchdec
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/alu.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/top.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/mux3.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/mux3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/imem_tb.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/imem_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module imem_tb
+
+Top level modules:
+	imem_tb
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle_tb.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module riscvsingle_tb
+
+Top level modules:
+	riscvsingle_tb
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/regfile.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/regfile.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/flopenr.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/flopenr.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flopenr
+
+Top level modules:
+	flopenr
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/extend.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/extend.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module extend
+
+Top level modules:
+	extend
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/testbench.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/dmem_tb.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/dmem_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dmem_tb
+
+Top level modules:
+	dmem_tb
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/adder.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/riscvsingle.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module riscvsingle
+
+Top level modules:
+	riscvsingle
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/maindec.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/maindec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module maindec
+
+Top level modules:
+	maindec
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/dmem.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/dmem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dmem
+
+Top level modules:
+	dmem
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/flopr.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/flopr.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flopr
+
+Top level modules:
+	flopr
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/controller.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/mux4.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/mux4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} D:/Desktop/risc-v/Computer-Architecture-main/aludec.sv {1 {vlog -work work -sv -stats=none D:/Desktop/risc-v/Computer-Architecture-main/aludec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module aludec
+
+Top level modules:
+	aludec
+
+} {} {}}
